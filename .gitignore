@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.carparts/
+
+# FAISS index (regenerable from the CSV — don't commit binary artifacts)
+my_faiss/
+
+# Environment
+.env
+.DS_Store
